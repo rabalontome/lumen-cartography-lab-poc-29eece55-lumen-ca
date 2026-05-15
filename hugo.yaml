@@ -1,0 +1,12 @@
+baseURL: "/"
+languageCode: "fr-fr"
+title: "Lumen Cartography Lab POC"
+theme: "blowfish"
+params:
+  description: "Laboratoire editorial de cartographie POC genere par le worker generique."
+  siteTheme: "editorial-cartography-lab"
+  env: "production"
+  pbnContext: "editorial-cartography-lab"
+  defaultTheme: "auto"
+taxonomies:
+  tag: tags
