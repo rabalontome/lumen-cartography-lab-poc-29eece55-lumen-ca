@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <section class="page-heading">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </section>
+
+  <section class="post-list">
+    {{ range .Pages }}
+      <article class="post-card">
+        <p class="post-date">{{ .Date.Format "02 Jan 2006" }}</p>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description }}</p>
+      </article>
+    {{ else }}
+      <p>Aucun contenu disponible.</p>
+    {{ end }}
+  </section>
+{{ end }}

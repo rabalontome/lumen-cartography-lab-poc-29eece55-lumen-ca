@@ -1,6 +1,4 @@
 ---
-title: "Lumen Cartography Lab POC"
+title: "Accueil"
 description: "Laboratoire editorial de cartographie POC genere par le worker generique."
 ---
-
-Laboratoire editorial de cartographie POC genere par le worker generique.

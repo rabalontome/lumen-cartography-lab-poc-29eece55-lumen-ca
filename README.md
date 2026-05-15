@@ -1,14 +1,14 @@
-# Blowfish
+# Lumen Cartography Lab POC
 
-Template PBN genere depuis https://github.com/nunocoracao/blowfish.git.
+Site Hugo genere par la plateforme PBN.
 
-## Validation
+## Commandes
 
-- Slug PBN: `blowfish`
-- Theme Hugo: `blowfish`
-- Profil: `blog`
-- Contrat contenu: `content/posts/{{slug}}.md` -> `/posts/{{slug}}/`
-- Build: `npm --prefix themes/blowfish install --include=dev --include=optional --no-package-lock && npm --prefix themes/blowfish run build && hugo --gc --minify`
-- Publication: `public`
+```bash
+hugo server
+hugo --gc --minify
+```
 
-Avant activation production, lancer un build Hugo avec un contenu de test.
+## Contenu
+
+Les articles sont stockes dans `content/posts`.
